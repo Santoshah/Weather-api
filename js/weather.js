@@ -1,10 +1,6 @@
 
 // for icons https://github.com/darkskyapp/skycons
 // for weather api https://darksky.net/dev/docs
-const posts = [
-	{title: 'Post One', body: 'This is post one'},
-	{title: 'Post Two', body: 'This is post two'},
-]; 
 
 
 
@@ -57,34 +53,3 @@ function setIcons(icon, iconId){
 }
 
 
-// function getPosts(){
-// 	let output = '<ul>';
-// 	posts.forEach((post,index) => {
-// 		output += `<li>${post.title} - ${post.body}</li>`;
-// 	})
-// 	output += `</ul>`;
-// 	document.getElementById("body").innerHTML = output;
-// }
-
-// getPosts();
-
-
-
-// function CreatePost(title, body) {
-
-// 	return new Promise((resolve, reject)=>{
-// 		posts.push({title: title, body: body});
-
-// 		const error = false;
-// 		if(!error) {
-// 			resolve();
-// 		} else {
-// 			reject("Error: Something went wrong");
-// 		}
-//  	})
-// }
-
-
-// CreatePost("post three", "this is post three")
-// 	.then(getPosts)
-// 	.catch(err => console.log(err))
