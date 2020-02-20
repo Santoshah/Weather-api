@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  width: 750px;
+  justify-content: space-between;  
+  height: 450px;
+  align-items: center;
+
+
+
+}
+
+.box {
+  background: green;
+  display: block;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box_1 {
+  align-self: flex-start;
+
+}
+.box_3 {
+  align-self: flex-end;
+}
+.box_5 {
+  align-self: flex-start;
+}

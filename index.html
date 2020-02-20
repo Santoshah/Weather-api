@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Weather api</title>
+
+	<style>
+		body {
+			background: -webkit-linear-gradient(skyblue, blue);
+			background: -o-linear-gradient(skyblue, blue);
+			background: linear-gradient(skyblue, blue);
+		    background-color: skyblue;
+		    height: 100vh;
+		    background-repeat: no-repeat;
+		    font-family: "Open Sans";
+		}
+
+		.container {
+			width: 768px;
+			margin: 0 auto;
+		}
+
+		.row {
+
+			display: -webkit-flex;
+			display: -moz-flex;
+			display: -ms-flex;
+			display: -o-flex;
+			display: flex;
+			justify-content: space-between;
+		}
+		.temp {
+			display: flex; justify-content: center; flex-direction: column; width: 100%; align-items: center; font-size: 24px; color: #fff; font-weight: bold;
+		}
+	</style>
+</head>
+<body>
+	
+<div class="container">
+	<div class="row">
+		<div class="timezone">
+			
+		</div>
+		<div class="icon">
+			<canvas id="icon" width="128" height="128"></canvas>
+		</div>
+	</div>
+	<div class="row column">
+		<div class="temp">
+			<span class="temperature"></span>
+			<div class="description"> </div>
+
+		</div>
+		
+	</div>
+</div>
+	<script src="js/skycons.js"></script>
+
+	<script src="js/async-await.js"></script>
+</body>
+</html>

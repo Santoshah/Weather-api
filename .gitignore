@@ -1,0 +1,7 @@
+gulpfile.js
+package-lock.json
+package.json
+js/script.js
+node_modules
+css
+weather.html
