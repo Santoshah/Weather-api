@@ -4,8 +4,7 @@ package.json
 js/script.js
 node_modules
 css
-weather.html
-index1.html
+./weather.html
 sass
-async-await.js
-array.html
+js/async-await.js
+./array.html
